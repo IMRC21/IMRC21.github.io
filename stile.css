@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+header{
+	background-color: #64B5F6;
+
+}
+
+#title{
+	font-family: 'Berkshire Swash', cursive;
+	color: white;
+}
