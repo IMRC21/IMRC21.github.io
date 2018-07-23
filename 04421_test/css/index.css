@@ -65,6 +65,12 @@ font-weight: 400;
 	background-color: white;
 }
 
+#close_icon{
+	margin-top: 2%;
+	cursor: pointer;
+}
+
+
 #container{
 	display: block;
 }
