@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>index</title>
+	<link href="css/index.css" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" type="text/css" href="C:\Users\Marian\node_modules\semantic-ui\dist\semantic.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	
+ 	<script
+	  src="https://code.jquery.com/jquery-3.1.1.min.js"
+	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	  crossorigin="anonymous"></script>
+	<script src="C:\Users\Marian\node_modules\semantic-ui\dist\semantic.min.js"></script>
+	<script src="js/scripts.js"></script>
+	
+	
+</head>
+
+<body>
+	<div class="push-left animated bounceInLeft" id="left-menu">
+	<h1>
+		Naviga
+	</h1>
+		<div class="vertical-menu" >
+			<a class="item">Gallery</a>
+			<a class="item">Dove trovarci</a>
+			<a class="item">Contatti</a>
+		</div>
+	</div>
+	<div id="container">
+	
+	<img src="images/logo.jpg" class="ui centered image">
+	<div class="ui borderless container menu" id="menu" style="">
+		<a class="active item">Home</a>
+		<a class="item">Gallery</a>
+		<a class="item">Dove trovarci</a>
+		<a class="item">Contatti</a>
+	</div>
+	
+	
+
+	<div class="ui borderless container menu" id="mobile">
+		<a class="item">Home</a>
+		<div class="right menu">
+			<a class="item" id="open-menu" onClick="openNav()">
+			<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><rect y="9" width="20" height="2"></rect><rect y="3" width="20" height="2"></rect><rect y="15" width="20" height="2"></rect></svg>
+
+			</a>
+	
+		</div>
+		<div class="ui container menu" id="menu_child" >
+			<a class="item">Gallery</a>
+			<a class="item">Dove trovarci</a>
+			<a class="item">Contatti</a>
+		</div>
+	
+	</div>
+	
+	</div>
+
+  
+	
+</body>
+</html>

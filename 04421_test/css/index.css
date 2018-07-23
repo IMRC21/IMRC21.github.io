@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#menu{
+	justify-content: center;
+}
+
+#menu_child{
+	display: none;
+}
+
+p{
+	font-size: 50px;
+}
+
+.small{
+font-size: 14px;
+font-weight: 400;
+}
+.menu li{
+    list-style: none;
+    padding: 15px 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    display: block;
+    margin: 0px;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+
+.push-left{
+	display: none;
+	position: fixed;
+	background-color: #212121;
+	margin-top: 8%;
+	margin-left: 10%;
+	height: 90%;
+	width: 0%;
+	z-index: 999;
+}
+
+.push-left h1{
+	top: 10%;
+	position: relative;
+	color: white;
+	text-align: center;
+	
+}
+
+.vertical-menu{
+	margin-top: 30%;
+}
+
+.vertical-menu a{
+	display: block;
+	position: relative;
+	padding: 3%;
+	color: white;
+	text-align: center;
+	
+}
+
+.vertical-menu a:hover{
+	color: #212121;
+	background-color: white;
+}
+
+#container{
+	display: block;
+}
+
+/*
+.push-left{
+	display: block;
+}
+*/
