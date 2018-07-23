@@ -1,4 +1,7 @@
 var menuIsOpen;
+var windowH;
+var headerH;
+
 
 function openNav() {
     document.getElementById("left-menu").style.width = "80%";
@@ -28,6 +31,10 @@ $(document).ready(function()
 	}
 	});
 */
+	windowH = $(window).height();
+	headerH = $("#container").height();
+	console.log("Lunghezza finestra = " + windowH + "lunghezza header = " + headerH);
+	
 	if ($(window).width() <= 600) {  
 			$("#mobile").show();
 			$("#menu").hide();
